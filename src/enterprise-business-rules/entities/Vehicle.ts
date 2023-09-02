@@ -2,7 +2,7 @@ import { SteeringType } from './enums/SteeringType';
 import { VehicleType } from './enums/VehicleType';
 import { Amount } from './shared/Amount';
 
-export interface Specification {
+interface Specification {
   steering: SteeringType;
   doorNumber: number;
   airConditioning: boolean;
